@@ -18,7 +18,7 @@ body {
   position: relative;
   width: 400px;
   height: 105px;
-  background: #fff;
+  background-color: rgb(233, 233, 233);
   padding: 28px 32px;
   overflow: hidden;
   border-radius: 18px;
@@ -37,6 +37,7 @@ body {
 /* Search-box */
 .search-box input {
   color: #06283D;
+  background-color: rgb(233, 233, 233);
   width: 80%;
   font-size: 24px;
   font-weight: 500;
@@ -56,19 +57,20 @@ body {
   width: 50px;
   height: 50px;
   color: #06283D;
-  background: #dff6ff;
+  background-color: rgb(233, 233, 233);
   border-radius: 50%;
   font-size: 22px;
   transition: 0.4s ease;
 }
 
 .search-box button:hover {
-  color: #fff;
+  color: rgb(233, 233, 233);
   background: #06283D;
 }
 
 .search-box i {
   position: absolute;
+  background-color: rgb(233, 233, 233);
   color: #06283D;
   font-size: 28px;
 }
